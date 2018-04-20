@@ -36,10 +36,7 @@ def kesha_maker (array)
   holder=[]
   holder2=[]
   while i<array.length
-    array[i].each do |x|
-      holder.push(x)
-    end
-
+    holder=array[i].split
     holder[2]="$"
     holder2[i]=holder.combine
     holder=[]
