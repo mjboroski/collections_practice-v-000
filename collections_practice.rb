@@ -44,7 +44,7 @@ def kesha_maker (array)
     holder2[i]=holder.combine
     holder=[]
   end
-      return holder2
+  return holder2
 end
 
 def find_a (array)
