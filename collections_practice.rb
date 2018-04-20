@@ -46,7 +46,14 @@ def kesha_maker (array)
 end
 
 def find_a (array)
-
+  holder=[]
+  i=0
+  while i<array.length
+    if array[i].start_with? ("a")
+      holder.push(array[i])
+    end
+  end
+  return holder
 end
 
 def sum_array (array)
