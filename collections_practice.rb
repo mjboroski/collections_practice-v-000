@@ -32,7 +32,19 @@ def reverse_array (array)
 end
 
 def kesha_maker (array)
+  i=0
+  holder=[]
+  holder2=[]
+  while i<array.length
+    array[i].each do |x|
+      holder.push(x)
+    end
 
+    holder[2]="$"
+    holder2[i]=holder.combine
+    holder=[]
+  end
+      return holder2
 end
 
 def find_a (array)
