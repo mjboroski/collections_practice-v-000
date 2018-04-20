@@ -40,6 +40,7 @@ def kesha_maker (array)
     holder[2]="$"
     holder2[i]=holder.join
     holder=[]
+    1+=1
   end
   return holder2
 end
