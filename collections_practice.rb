@@ -52,6 +52,7 @@ def find_a (array)
     if array[i].start_with?("a")==true
       holder.push(array[i])
     end
+    i+=1
   end
   return holder
 end
