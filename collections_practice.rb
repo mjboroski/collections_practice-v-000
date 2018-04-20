@@ -58,7 +58,12 @@ def find_a (array)
 end
 
 def sum_array (array)
-
+  i=0
+  while i<array.length
+    holder+=array[i]
+    i+=1
+  end
+  return holder
 end
 
 def add_s (array)
