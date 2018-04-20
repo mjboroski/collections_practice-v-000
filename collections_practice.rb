@@ -38,7 +38,7 @@ def kesha_maker (array)
   while i<array.length
     holder=array[i].split
     holder[2]="$"
-    holder2[i]=holder.combine
+    holder2[i]=holder.join
     holder=[]
   end
   return holder2
