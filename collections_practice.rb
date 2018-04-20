@@ -76,7 +76,7 @@ def add_s (array)
     else
       holder[i]=array[i]
     end
-    i+=1  
+    i+=1
   end
   return holder
 end
