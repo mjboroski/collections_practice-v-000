@@ -68,7 +68,7 @@ def sum_array (array)
 end
 
 def add_s (array)
-  holder=[]]
+  holder=[]
   i=0
   while i<array.length
     if i!=1
@@ -76,7 +76,7 @@ def add_s (array)
     else
       holder[i]=array[i]
     end
-    i+=1
+    i+=1  
   end
   return holder
 end
