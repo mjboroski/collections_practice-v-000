@@ -49,7 +49,7 @@ def find_a (array)
   holder=[]
   i=0
   while i<array.length
-    if array[i].start_with? ("a")
+    if array[i].start_with?("a")==true
       holder.push(array[i])
     end
   end
